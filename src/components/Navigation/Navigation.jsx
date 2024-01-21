@@ -19,10 +19,10 @@ const Navigation = () => {
       <nav className={showSidebar ? 'sidebar open' : 'sidebar'}>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/OurServices/OurServices">Services</Link></li>
-          <li><Link to="/TrackShipment/TrackShipment">Track Shipment</Link></li>
-          <li><Link to="/AboutUs/AboutUs">About Us</Link></li>
-          <li><Link to="/Contacts/Contact">Contact</Link></li>
+          <li><Link to="./OurServices">Services</Link></li>
+          <li><Link to="/TrackShipment">Track Shipment</Link></li>
+          <li><Link to="/AboutUs">About Us</Link></li>
+          <li><Link to="/Contacts">Contact</Link></li>
         </ul>
       </nav>
     </div>

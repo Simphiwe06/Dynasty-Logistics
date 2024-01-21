@@ -2,7 +2,7 @@ import React from 'react';
 
 const TrackShipment = () => {
   return (
-    <div>
+    <div className="track-shipment-container">
       <h1>Track Your Shipment</h1>
       <p>
         Use our advanced tracking system to monitor the real-time status and location of your shipment. Enter your tracking number and stay informed every step of the way.

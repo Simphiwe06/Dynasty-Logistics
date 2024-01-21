@@ -1,0 +1,17 @@
+/* OurServices.css */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px; /* Adjust this value based on your header's height */
+    max-width: 120%; /* Add this to ensure the container takes up the full width */
+    box-sizing: border-box; /* Add this to include padding in the width */
+  }
+  
+  .services-content {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  

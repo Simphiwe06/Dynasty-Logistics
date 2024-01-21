@@ -1,8 +1,10 @@
+// Contacts.jsx
 import React from 'react';
+import './Contacts.css';
 
-const Contact = () => {
+const Contacts = () => {
   return (
-    <div>
+    <div className="contacts-container">
       <h1>Contact Us</h1>
       <p>
         Have questions or need assistance? Our customer support team is here to help. Reach out to us through the contact form below or use the provided contact details.
@@ -12,4 +14,4 @@ const Contact = () => {
   );
 }
 
-export default Contact;
+export default Contacts;
